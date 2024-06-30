@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS customer_details (
     first_name VARCHAR(50) NOT NULL,
     surname VARCHAR(50) NOT NULL,
     gender CHAR(1) CHECK (gender IN ('M', 'F', 'X')) NOT NULL,
-    dob DATE NOT NULL,
+    DOB DATE NOT NULL,
     phone_number VARCHAR(15) NOT NULL UNIQUE,
     email_address VARCHAR(100) NOT NULL PRIMARY KEY,
     address VARCHAR(255) NOT NULL
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS baby_details (
     gender CHAR(1) CHECK (gender IN ('M', 'F', 'X')) NOT NULL,
     weight DECIMAL(5, 2) UNSIGNED NOT NULL,
     height DECIMAL(4, 2) UNSIGNED NOT NULL,
-    dob DATETIME NOT NULL
+    birth_datetime DATETIME NOT NULL
 );
 ```
 ### Famous Landmarks Table
