@@ -4,7 +4,7 @@ This repository contains a file with SQL queries to create and manage various ta
 
 ## Description of SQL Queries
 ### Stock Table
-Creates a table to record stock ata shop with each item having a name, short description, price and quantity in stock.
+Creates a table to record stock at a shop with each item having a name, short description, price and quantity in stock.
 ```sql
 CREATE TABLE IF NOT EXISTS stocks (
     ID INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
