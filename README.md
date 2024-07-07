@@ -1,4 +1,4 @@
-# SQL-Table-Creation-Queries
+# SQLTableCreationQueries
 
 This repository contains a file with SQL queries to create and manage various tables required for different scenarios.
 
