@@ -99,7 +99,7 @@ To create and manage these tables, follow these steps:
 1. Clone this repository.
 2. Execute the file in an SQL environment.
 ```sh
-git clone https://github.com/Learner062022/SQL-Table-Creation-Queries.git
-cd <repository-directory>
+git clone https://github.com/Learner062022/SQLTableCreationQueries.git
+cd <SQLTableCreationQueries>
 mysql -u <username> -p <database_name> < ManagingTables
 ```
