@@ -51,8 +51,8 @@ CREATE TABLE IF NOT EXISTS baby_details (
 CREATE TABLE IF NOT EXISTS famous_landmarks (
     name VARCHAR(255) NOT NULL,
     rating TINYINT UNSIGNED CHECK (rating BETWEEN 1 AND 5) NOT NULL,
-    longitude DECIMAL(9, 6) NOT NULL,
-    latitude DECIMAL(9, 6) NOT NULL,
+    longitude DECIMAL(17, 14) NOT NULL,
+    latitude DECIMAL(17, 14) NOT NULL,
     closest_city_or_town VARCHAR(100) NOT NULL,
     country VARCHAR(100) NOT NULL,
     distance_from_perth_km DECIMAL(6, 2) UNSIGNED NOT NULL,
