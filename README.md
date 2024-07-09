@@ -16,13 +16,12 @@ To create and manage these tables, follow these steps:
 1. Clone this repository:
 ```sh
 git clone https://github.com/Learner062022/SQLTableCreationQueries.git
-cd <SQLTableCreationQueries>
 ```
 2. Navigate to the repository directory:
 ```sh
 cd <SQLTableCreationQueries>
 ```
-4. Execute the SQL file in your SQL environment.
+3. Execute the SQL file in your SQL environment.
 ```sh
 mysql -u <username> -p <database_name> < ManagingTables.sql
 ```
@@ -30,8 +29,8 @@ mysql -u <username> -p <database_name> < ManagingTables.sql
 All the SQL queries for the following tables are contained in the `ManagingTables.sql` file:
   - **Stock Table**: Records shop items, including fields for item name, description, price, and quantity.
   - **Customer Details Table**: Stores customers' details, such as first name, surname, date of birth, phone number, email address and address. Gender is optional.
-  - **Company Stock Prices Table: Stores companies' current stock prices, including their name, ticker symbol and share price.
-  - **Car Information Table: Stores information about cars, including make, model, number plate, year and registration state.
+  - **Company Stock Prices Table**: Stores companies' current stock prices, including their name, ticker symbol and share price.
+  - **Car Information Table**: Stores information about cars, including make, model, number plate, year and registration state.
   - **Baby Details Table:** Records information about babies born at a hospital, including name, surname, gender, weight, height and birth date.
   - **Famous Landmarks Table**: Stores information about various famous landmarks, including name, rating, longitude, latitude, nearest city or town, country and distance from Perth.
 
