@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS customer_details (
     surname VARCHAR(50) NOT NULL,
     gender CHAR(1) CHECK (gender IN ('M', 'F', 'X')) NOT NULL,
     DOB DATE NOT NULL,
-    phone_number CHAR(10) NOT NULL,
+    phone_number VARCHAR(15) NOT NULL UNIQUE,
     email_address VARCHAR(100) NOT NULL PRIMARY KEY,
     address VARCHAR(255) NOT NULL
 );
