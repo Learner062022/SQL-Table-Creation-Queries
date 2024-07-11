@@ -55,6 +55,6 @@ CREATE TABLE IF NOT EXISTS famous_landmarks (
     latitude DECIMAL(17, 14) NOT NULL,
     closest_city_or_town VARCHAR(100) NOT NULL,
     country VARCHAR(100) NOT NULL,
-    distance_from_perth_km DECIMAL(6, 2) UNSIGNED NOT NULL,
+    distance_from_perth_km INT UNSIGNED NOT NULL,
     PRIMARY KEY (longitude, latitude)
 );
